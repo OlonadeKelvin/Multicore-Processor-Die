@@ -1,7 +1,8 @@
 # Thermal Analysis of a Multi-Core Processor
 
 This MATLAB script simulates the transient heat conduction in a 2D chip containing two heat-generating cores. The heat source switches from one core to the other after 0.05 seconds, demonstrating thermal crosstalk and the evolution of temperature distribution over time. The simulation uses an explicit finite difference method (Euler time integration) with Dirichlet boundary conditions.
-Features
+
+# Features
 2D heat diffusion solved on a uniform grid using finite differences.
 Two separate core regions with time‑dependent heat generation.
 Constant temperature (Dirichlet) boundary conditions at the chip edges.
